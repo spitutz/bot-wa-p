@@ -957,7 +957,7 @@ ${isSurender ? '' : ``}`.trim()
             if (m.text.toLowerCase() == jawaban) {
                global.db.data.users[m.sender].exp += susunkata[m.chat][2]
                await alpha.sendButtonText(m.chat, [{
-                  buttonId: '.susunkata',
+                  buttonId: '!susunkata',
                   buttonText: {
                      displayText: lang.TbSu()
                   },
